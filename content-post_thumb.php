@@ -21,11 +21,7 @@
 
 	<?php the_excerpt();?>
 	<div class='margin-top'>
-		<p class='small regular-font-name light-text-color'>
-			Posted in:
-			<?php the_category(', '); ?>
-			 <?php the_tags( '| Tags: ', ', ', '<br />' ); ?> 
-		</p>
+		<?php get_template_part( 'content', 'post_meta' ); ?>
 	</div>
 	<div class='half-padding-top'>
 		<a class='next-up pull-left regular-font-name' href='<?php the_permalink();?>'>
