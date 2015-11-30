@@ -1,0 +1,41 @@
+//sections
+section{
+  padding:$baseline*2 0;
+
+  &.page-header-section{
+    background-size:cover;
+    background-position:center center;
+    padding:$baseline*4 0;
+    h1{
+      text-shadow:0 1px 13px rgba(0,0,0,.3);
+    }
+  }
+  &.white-bg{
+    background:#fff;
+    border-bottom:1px solid $medium-gray-color;
+    border-top:1px solid $medium-gray-color;
+  }
+  &.inverse-section{
+  	@extend %white_text;
+    background-color:$primary-color;
+    a{
+      color:white;
+      border-color:white;
+    }
+  }
+}
+
+.off-white-section-group{
+  section{
+    &.white-bg{
+      border:none;
+      &:first-of-type{
+        border-top:1px solid $medium-gray-color;
+      }
+      &:last-of-type{
+        border-bottom:1px solid $medium-gray-color;
+      }
+    }
+  }
+}
+

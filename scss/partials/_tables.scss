@@ -1,0 +1,16 @@
+table{
+	background-color:white;
+	&.price-table{
+		border-color: $primary-color!important;
+		thead,tbody,th,tr,td{
+			border-color: $primary-color!important;
+			border-bottom-width:1px!important;
+		}
+		td.info{
+			background:tint($primary-color,90%)!important;
+		}
+		p{
+			font-family: $regular-font-name;
+		}
+	}
+}

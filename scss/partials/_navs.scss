@@ -1,0 +1,12 @@
+ul.pager{
+	li{
+		a{
+			@include transition-duration(.3s);
+			border:none;
+			&:hover{
+				background:transparent;
+				
+			}
+		}
+	}
+}
