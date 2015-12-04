@@ -3,7 +3,7 @@
 	$args=array(
 	'post__not_in' => array($post->ID),
 	'posts_per_page'=>3,
-	'orderby' => 'asc'
+	'orderby' => 'rand'
 	);
 	$my_query = new WP_Query($args); ?>
 <?php
