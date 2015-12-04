@@ -1,25 +1,23 @@
 <?php get_header(); ?>
 
-  <section>
+
+
+
+  <section class="no-padding-bottom">
     <div class='container'>
       <div class="row">
         <div class='col-sm-2'></div>
         <div class='col-sm-8'>
-          <h4 class="text-center">Tag: <?php single_tag_title( '', true ); ?> </h4>
+          <h4 class="text-center"> <?php single_cat_title('Tag: '); ?> </h4>
+          <div class="double-padding-bottom"></div>
+          <hr/>
         </div>
         <div class='col-sm-8'></div>
       </div>
     </div>
   </section>
-  <div class='container'>
-    <div class="row">
-      <div class='col-sm-2'></div>
-      <div class='col-sm-8'>
-        <hr/>
-      </div>
-      <div class='col-sm-8'></div>
-    </div>
-  </div>
+
+
 
 
 <?php get_template_part( 'content', 'post_list' ); ?>

@@ -296,7 +296,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 h1, h2, h3, h4, h5, h6, p {
   margin:0;
-  margin-bottom:$baseline/2; 
+  margin-bottom:$baseline; 
 }
 
 
@@ -333,7 +333,7 @@ h6 {
 p{
   color:$body-text-color;
   line-height:2.8rem;
-  margin-bottom:$baseline/2;
+  margin-bottom:$baseline;
   &.lead{
     line-height:1.7rem;
   }

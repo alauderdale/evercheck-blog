@@ -1,4 +1,4 @@
-<div class="post-thumb">
+<div class="post-thumb padded no-padding-bottom no-padding-top">
 	<div class='padded'>
 		<h2 class='text-center'>
 			<a href='<?php the_permalink();?>'>
@@ -15,7 +15,7 @@
 			<img 
 			class='img-responsive margin-bottom no-padding' 
 			src='<?php echo $image[0]; ?>' 
-			width='620'>
+			width='100%'>
 		</a>
 	<?php endif; ?>
 

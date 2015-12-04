@@ -32,104 +32,45 @@
           <p class='small bold-font-name'>
             About
           </p>
-          <ul class='list-unstyled footer-main-nav'>
-            <li>
-              <a href='/company'>
-                Company
-              </a>
-            </li>
-            <li>
-              <a href='#'>
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href='/jobs'>
-                Jobs
-              </a>
-            </li>
-            <li>
-              <a href='/pricing#faqs'>
-                FAQs
-              </a>
-            </li>
-          </ul>
+          <?php wp_nav_menu( array( 
+            'theme_location' => 'menu-about', 
+            'container' => false, 
+            'menu_class' => 'list-unstyled footer-main-nav',
+            'items_wrap'  => '<ul id="%1$s" class="%2$s">%3$s</ul>' 
+          )); ?>
         </div>
         <div class='col-sm-2 margin-bottom'>
           <p class='small bold-font-name'>
             Features
           </p>
-          <ul class='list-unstyled footer-main-nav'>
-            <li>
-              <a href='/solution'>
-                Solution
-              </a>
-            </li>
-            <li>
-              <a href='/solution/monitor'>
-                Monitor
-              </a>
-            </li>
-            <li>
-              <a href='/solution/collaborate'>
-                Collaborate
-              </a>
-            </li>
-            <li>
-              <a href='/solution/integrate'>
-                Integrate
-              </a>
-            </li>
-            <li>
-              <a href='/solution/manage'>
-                Manage
-              </a>
-            </li>
-          </ul>
+          <?php wp_nav_menu( array( 
+            'theme_location' => 'menu-features', 
+            'container' => false, 
+            'menu_class' => 'list-unstyled footer-main-nav',
+            'items_wrap'  => '<ul id="%1$s" class="%2$s">%3$s</ul>' 
+          )); ?>
         </div>
         <div class='col-sm-2 margin-bottom'>
           <p class='small bold-font-name'>
             Learn More
           </p>
-          <ul class='list-unstyled footer-main-nav'>
-            <li>
-              <a href='/pricing'>
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a href='/security'>
-                Security
-              </a>
-            </li>
-            <li>
-              <a href='/demo'>
-                Schedule a Demo
-              </a>
-            </li>
-            <li>
-              <a href='/privacy'>
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href='#'>
-                Download the App
-              </a>
-            </li>
-          </ul>
+          <?php wp_nav_menu( array( 
+            'theme_location' => 'menu-more', 
+            'container' => false, 
+            'menu_class' => 'list-unstyled footer-main-nav',
+            'items_wrap'  => '<ul id="%1$s" class="%2$s">%3$s</ul>' 
+          )); ?>
         </div>
         <div class='col-sm-2 margin-bottom'>
           <p class='small bold-font-name'>
             Get in Touch
           </p>
-          <ul class='list-unstyled footer-main-nav'>
-            <li>
-              <a href='/contact'>
-                Contact Us
-              </a>
-            </li>
-          </ul>
+          <?php wp_nav_menu( array( 
+            'theme_location' => 'menu-contact', 
+            'container' => false, 
+            'menu_class' => 'list-unstyled footer-main-nav',
+            'items_wrap'  => '<ul id="%1$s" class="%2$s">%3$s</ul>' 
+          )); ?>
         </div>
       </div>
     </div>

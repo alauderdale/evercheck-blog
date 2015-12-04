@@ -32,7 +32,10 @@ function boiler_setup() {
 	 */
 	register_nav_menus( array(
 		'menu-primary' => __( 'Primary Menu', 'boiler' ),
-		'menu-contact' => __( 'Contact Menu', 'boiler' )
+		'menu-about' => __( 'About Menu', 'boiler' ),
+		'menu-features' => __( 'Features Menu', 'boiler' ),
+		'menu-more' => __( 'Learn More Menu', 'boiler' ),
+		'menu-contact' => __( 'Get in Touch Menu', 'boiler' )
 	) );
 
 	/**

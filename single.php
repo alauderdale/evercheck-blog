@@ -35,38 +35,7 @@ get_header(); ?>
 <section>
 	<div class='container'>
 		<div class='row'>
-			<div class='col-lg-12'>
-				<h5 class='text-center'>
-					You Might Also Like...
-				</h5>
-				<div class='double-margin-bottom'></div>
-			</div>
-		</div>
-		<div class='row'>
-			<div class='col-sm-4'>
-				<a href='#'>
-					<img class='img-responsive' src='/images/blog/placeholder@2x.png' width='100%'>
-					<h4 class='text-center secondary-text-color'>
-						I’m The Title of Another Post
-					</h4>
-				</a>
-			</div>
-			<div class='col-sm-4'>
-				<a href='#'>
-					<img class='img-responsive' src='/images/blog/placeholder@2x.png' width='100%'>
-					<h4 class='text-center secondary-text-color'>
-						I’m The Title of Another Post
-					</h4>
-				</a>
-			</div>
-			<div class='col-sm-4'>
-				<a href='#'>
-					<img class='img-responsive' src='/images/blog/placeholder@2x.png' width='100%'>
-					<h4 class='text-center secondary-text-color'>
-						I’m The Title of Another Post
-					</h4>
-				</a>
-			</div>
+			<?php get_template_part( 'content', 'related_posts' ); ?>
 		</div>
 	</div>
 </section>
